@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(246, 239, 233);
+}
+
+span{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.title{
+    color: white;
+    font-family: "Oswald", sans-serif;
+}
+
+.title_div{
+    margin: auto;
+}
+
+.countDown{
+    position: absolute;
+    width: 15svh;
+    min-height: 1vh;
+    text-align: center;
+    background-color: #fff;
+    margin: 0 0 0 30svh;
+    font-family: "Anta", sans-serif;
+}
+
+.header_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+
+.stick{
+    height: 35dvh;
+}
+
+.first_div{
+    display: flex;
+    margin: auto;
+    width: 70svh;
+    min-height: 40svh;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.stick_div{
+    width: 90svh;
+    position: relative;
+}
+
+.person{
+    position: absolute;
+    left: 25svh;
+    height: 25svh;
+    width: 17svh;
+    margin-top: 10svh;
+}
+
+.second_div{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 90svh;
+    min-height: 35svh;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.guess_text{
+    font-size: 13px;
+}
+
+.row{
+    padding: 10vh 0 5vh 0;
+}
+
+.test_div{
+    margin-bottom: 5vh;
+}
+
+button{
+    border-radius: 10vh;
+    width: 30px;
+    height: auto;
+    background-color: black;
+    color: white;
+    border: none;
+    margin: 0 0 1vh 1vh;
+}
+
+button:hover{
+    background-color: orange;
+    color: gray;
+}
+
+.newGameButton{
+    margin: auto;
+}
+
+.new_game{
+    min-width: 20svh;
+    min-height: 5svh;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+button.new_game:hover{
+    background-color: orange;
+    color: gray;
+}
+
+.div_inline{
+    position: relative;
+    display: inline;
+}
+
+.icon_size{
+    width: 3svh;
+    height: 3svh;
+    position: absolute;
+    right: 10%;
+    z-index: 1;
+}
+
+.zero{
+    right: 0%;
+}
+
+#imageTAB{
+    right: 0%;
+}
+
+#buttonTAB{
+    font-size: 2vh;
+}
+
+.flag{
+    border: 1px solid black;
+    width: 20svh;
+}
