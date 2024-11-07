@@ -55,6 +55,11 @@ nav {
 .stick{
     height: 35dvh;
 }
+@media (max-width: 1024px) {
+    .stick {
+        margin-left: -5svh;
+    }
+}
 
 .first_div{
     display: flex;
