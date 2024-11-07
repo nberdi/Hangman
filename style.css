@@ -23,25 +23,17 @@ span{
 }
 
 nav {
-    margin: 0 0 10vh;
+    margin: 0 0 20vh;
 }
 
-.div_countdown{
-    margin: 0 0 2rem 17rem;
-}
-
-@media (max-width: 1024px) {
-    .div_countdown {
-        margin: 0 0 4rem 8.25rem;
-    }
-}
 .countDown{
     position: absolute;
     width: 15svh;
     min-height: 1vh;
     text-align: center;
-    background-color: #fff;
+    font-size: 1rem;
     font-family: "Anta", sans-serif;
+    margin: -6.5rem;
 }
 
 .header_button{
@@ -62,6 +54,7 @@ nav {
 }
 
 .first_div{
+    justify-content: center;
     display: flex;
     margin: auto;
     width: 70svh;
@@ -76,11 +69,11 @@ nav {
 }
 
 .person{
+    margin: 10vh 0;
     position: absolute;
     left: 25svh;
     height: 25svh;
     width: 17svh;
-    margin-top: 10svh;
 }
 
 @media (max-width: 1024px) {
